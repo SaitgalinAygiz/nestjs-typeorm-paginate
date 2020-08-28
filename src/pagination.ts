@@ -5,7 +5,7 @@ export class Pagination<PaginationObject> {
     /**
      * a list of items to be returned
      */
-    public readonly items: PaginationObject[],
+    public items: PaginationObject[],
     /**
      * associated meta information (e.g., counts)
      */
